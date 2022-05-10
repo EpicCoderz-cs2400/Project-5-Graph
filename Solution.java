@@ -7,7 +7,7 @@ public class Solution {
 
         private static char key;
 
-        public static void main(String[] args) {
+        public static void bfs(String[] args) {
 
                 //              adj list representation
                                 LinkedHashMap<Character,ArrayList<Character>> adjList = new LinkedHashMap<>();
