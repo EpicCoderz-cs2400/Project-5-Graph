@@ -21,21 +21,6 @@ public class Solution {
                System.out.println("adjecency list: ");
                for(char key:adjList.keySet()) {
                        System.out.println(key + ": " + adjList.get(key).toString());
-               }
-               int adjMat[][] = {
-                               {0,1,0,1,0,0},
-                               {0,0,1,0,0,0},
-                               {0,0,0,0,1,0},
-                               {0,0,1,0,0,0},
-                               {0,0,0,1,0,1},
-                               {0,0,1,0,0,0}
-               };
-               System.out.println("adjecency matrix: ");
-               for(int[] arr:adjMat) {
-                       System.out.println(Arrays.toString(arr));
-               }
                
        
-       }
-
-}
+       }}}
