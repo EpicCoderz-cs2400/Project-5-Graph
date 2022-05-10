@@ -35,3 +35,13 @@ public class Solution {
                                {0,0,0,1,0,1},
                                {0,0,1,0,0,0}
                };
+//              printing adj matrix
+               System.out.println("adjecency matrix: ");
+               for(int[] arr:adjMat) {
+                       System.out.println(Arrays.toString(arr));
+               }
+               
+       
+       }
+
+}
