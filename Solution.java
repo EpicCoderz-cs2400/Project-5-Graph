@@ -7,7 +7,6 @@ public class Solution {
 
         public static void bfs(String[] args) {
 
-                //              adj list representation
                                 LinkedHashMap<Character,ArrayList<Character>> adjList = new LinkedHashMap<>();
                                 adjList.put('A',new ArrayList<>(List.of('D','B')));
                                 adjList.put('B',new ArrayList<>(List.of('E')));
@@ -19,12 +18,10 @@ public class Solution {
                                 adjList.put('H' ,new ArrayList<>(List.of('I')));
                                 adjList.put('I' ,new ArrayList<>(List.of('F')));
 
-               //              printing the adj list
                System.out.println("adjecency list: ");
                for(char key:adjList.keySet()) {
                        System.out.println(key + ": " + adjList.get(key).toString());
                }
-//              adj matrix representation
                int adjMat[][] = {
                                {0,1,0,1,0,0},
                                {0,0,1,0,0,0},
@@ -33,7 +30,6 @@ public class Solution {
                                {0,0,0,1,0,1},
                                {0,0,1,0,0,0}
                };
-//              printing adj matrix
                System.out.println("adjecency matrix: ");
                for(int[] arr:adjMat) {
                        System.out.println(Arrays.toString(arr));

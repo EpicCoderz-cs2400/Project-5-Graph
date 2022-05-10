@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public class Solution2 {
-//      displays the dfs order of the graph
+
         public static void dfs(char curr,LinkedHashSet<Character> visited,LinkedHashMap<Character,ArrayList<Character>> adjList) {
                 System.out.println(curr);
                 visited.add(curr);
@@ -32,13 +32,10 @@ public class Solution2 {
                 adjList.put('I' ,new ArrayList<>(List.of('F')));
                 LinkedHashSet<Character> visited = new LinkedHashSet<>();
                 System.out.println("Dfs order: ");
-//              calls the dfs method to prints the dfs order
+
                 dfs('A',visited,adjList);
                 System.out.println();
-                
-                
 
-        
+  }
+          
         }
-
-}
