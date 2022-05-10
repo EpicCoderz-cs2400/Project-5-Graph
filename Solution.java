@@ -20,3 +20,7 @@ public class Solution {
                                 adjList.put('G' ,new ArrayList<>(List.of('H')));
                                 adjList.put('H' ,new ArrayList<>(List.of('I')));
                                 adjList.put('I' ,new ArrayList<>(List.of('F')));
+                //              printing the adj list
+                System.out.println("adjecency list: ");
+                for(char key:adjList.keySet()) {
+                        System.out.println(key + ": " + adjList.get(key).toString());
