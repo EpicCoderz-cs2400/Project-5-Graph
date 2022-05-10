@@ -5,8 +5,6 @@ import java.util.Arrays;
 
 public class Solution {
 
-        private static char key;
-
         public static void bfs(String[] args) {
 
                 //              adj list representation
