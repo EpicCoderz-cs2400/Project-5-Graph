@@ -26,3 +26,12 @@ public class Solution {
                for(char key:adjList.keySet()) {
                        System.out.println(key + ": " + adjList.get(key).toString());
                }
+//              adj matrix representation
+               int adjMat[][] = {
+                               {0,1,0,1,0,0},
+                               {0,0,1,0,0,0},
+                               {0,0,0,0,1,0},
+                               {0,0,1,0,0,0},
+                               {0,0,0,1,0,1},
+                               {0,0,1,0,0,0}
+               };
